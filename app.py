@@ -350,7 +350,7 @@ Your response should be detailed, practical, and actionable, providing clear ste
             st.subheader("The Response is")
             st.write(response)
         else:
-            st.error("Please upload the resumeContent")
+            st.error("Please upload the resume")
 
     if submit4:
         if uploaded_file is not None:
@@ -359,7 +359,7 @@ Your response should be detailed, practical, and actionable, providing clear ste
             st.subheader("The Response is")
             st.write(response)
         else:
-            st.error("Please upload the resumeContent")
+            st.error("Please upload the resume")
 
     if submit5:
         if uploaded_file is not None:
@@ -368,6 +368,6 @@ Your response should be detailed, practical, and actionable, providing clear ste
             st.subheader("The Response is")
             st.write(response)
         else:
-            st.error("Please upload the resumeContent")
+            st.error("Please upload the resume")
 
 
